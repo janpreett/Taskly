@@ -37,14 +37,16 @@ MAILGUN_PARAMS = {
     "api_key": "your_mailgun_api_key",
     "domain": "your_mailgun_domain"
 }
+
 Running the Application
+
 To run the Taskly application, navigate to the directory containing the application code and run:
 
 Using the Application
+
 Add a Task: Fill in the task name, priority, and deadline, then click "Add Task".
 Update/Delete a Task: Select a task from the dropdown menu, update the details as needed, and click "Update Task" or "Delete Task".
 Sort and Display Tasks: Use the display buttons to sort tasks by priority or deadline, either in ascending or descending order.
 Troubleshooting
 Database Connection Issues: Verify that your PostgreSQL server is running and that the connection details in DATABASE_PARAMS are correct.
 Dependency Installation Issues: Ensure you have the correct version of Python installed and that pip is up to date.
-To run the Taskly application, navigate to the directory containing the application code and run:
